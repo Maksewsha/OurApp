@@ -9,6 +9,7 @@ import java.util.List;
 public class UserRepository {
     private final List<String> userList = new ArrayList<>();
     public List<String> getAll(){
+        System.out.println(userList);
         return userList;
     }
 
